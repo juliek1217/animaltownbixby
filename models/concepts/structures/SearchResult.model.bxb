@@ -1,0 +1,114 @@
+structure (SearchResult) {
+  description (result of the search list)
+
+  property (infoResult) {
+    type (InfoResult)
+    min (Optional) max (One)
+  }
+  property (action) {
+    type (Action)
+    min (Required) max (One)
+  }
+  property (inputLocationDialog) {
+    type (InputLocationDialog)
+    min (Required) max (One)
+  }
+  property (inputLocation) {
+    type (InputLocation)
+    min (Optional) max (One)
+  }
+  property (itemcount) {
+    type (Itemcount)
+    min (Optional) max (One)
+  }
+
+  property (exception) {
+    type (Exception)
+    min (Optional) max (One)
+  }
+  property (icon) {
+    type (Icon)
+    min (Optional) max (One)
+  }
+  property (category) {
+    type (Category)
+    min (Required) max (One)
+  }
+  property (distanceSorting) {
+    type (DistanceSorting)
+    min (Required) max (One)
+  }
+  property (distance) {
+    type (Distance)
+    min (Required) max (One)
+  }
+  property (distanceLocation) {
+    type (DistanceLocation)
+    min (Optional) max (One)
+  }
+
+  property (name) {
+    type (Name)
+    min (Required) max (One)
+  }
+  property (address){
+    type (Address)
+    min (Optional) max (One)
+  }
+  property (addressOld) {
+    type (AddressOld)
+    min (Optional) max (One)
+  }
+  property (point) { 
+    type (geo.GeoPoint)
+  }
+  property (myLocation) {
+		type (MyLocation)
+		min (Optional) max (One)
+  }
+  property (searchLocation) {
+		type (SearchLocation)
+		min (Optional) max (One)
+  }
+  property (phone) {
+    type (Phone)
+    min (Optional) max (One)
+  }
+  property (website) {
+    type (Website)
+    min (Optional) max (One)
+  }
+  property (description) {
+    type (Description)
+    min (Optional) max (One)
+  }
+
+  property (direction) {
+    type (Direction)
+    min (Optional) max (One)
+  }
+  property (hours) {
+    type (Hours)
+    min (Optional) max (One)
+  }
+  property (days) {
+    type (Days)
+    min (Optional) max (One)
+  }
+  property (image) {
+    type (Image)
+    min (Optional) max (One)
+  }
+  property (review) {
+    type (Review)
+    min (Optional) max (One)
+  }
+  property (animal) {
+    type (Animal)
+    min (Optional) max (One)
+  }
+  property (cost) {
+    type (Cost)
+    min (Optional) max (One)
+  }
+}

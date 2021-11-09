@@ -1,0 +1,44 @@
+train (t-1tu7c5n0fppnby0shxhnt0o5y) {
+  utterance ("[g:FindVet] (경상북도)[v:geo.SearchTerm]에 있는 (동물병원)[v:Place:Vet] 찾아줘")
+  last-modified (1626422553902)
+}
+train (t-18s78ly0egg21q2w02j9sepu9) {
+  utterance ("[g:FindPlay] 근처 반려견 (놀이터)[v:Place:Play] 좀 알려줘")
+  last-modified (1626757437357)
+}
+train (t-1gjnjmehflu0tq1gpwnga24z6) {
+  utterance ("[g:FindPlay] (서울시)[v:geo.SearchTerm] 강아지 (공원)[v:Place:Play] 나와봐")
+  last-modified (1626941563525)
+}
+train (t-13qv74w9601bylw1z5rkr9azh) {
+  utterance ("[g:FindPlay] (상암동)[v:geo.SearchTerm]에서 운영중인 반려동물 데리고 (갈만한곳)[v:Place:Play] 보여주라")
+  last-modified (1626941669252)
+}
+train (t-16c5hpwneqqvag8pqx8s93apk) {
+  utterance ("[g:FindPlay] 우리집 개와 (가볼만한곳)[v:Place:Play] (대구 중구)[v:geo.SearchTerm]에 있는데 보여줄래")
+  last-modified (1626942287051)
+}
+train (t-1hnbbaherguc9f01euq0x4qa6) {
+  utterance ("[g:FindPlay] 애견이랑 (가볼만한 곳)[v:Place:Play] (전라북도)[v:geo.SearchTerm]에 있는 거 찾아줘요")
+  last-modified (1626942464085)
+}
+train (t-192wk1ve7sghy99jpuu4bf2lg) {
+  utterance ("[g:FindVet] 근처 (동물보호센터)[v:Place:Shelter] 찾아")
+  last-modified (1626943473483)
+}
+train (t-1dh1dqz6y0yala1t4dkaf31wf) {
+  utterance ("[g:FindVet] (유기동물센터)[v:Place:Shelter] (경상도)[v:geo.SearchTerm]내에서 있는걸로 띄워봐라")
+  last-modified (1627277531626)
+}
+train (t-176gjsk5hkm8n16qh2crx1y3j) {
+  utterance ("[g:FindVet] (인천)[v:geo.SearchTerm]에서 (동물 병원)[v:Place:Vet] 말해봐")
+  last-modified (1627376684874)
+}
+train (t-10y44cl2fki2ahp7ghf7hwlda) {
+  utterance ("[g:FindVet] (경기도)[v:geo.SearchTerm] 내 모든 (동물보호센터)[v:Place:Shelter] 좀 알아봐줘")
+  last-modified (1627377564173)
+}
+train (t-16az40frh66204r8p19jwrfr1) {
+  utterance ("[g:FindVet] (서울)[v:geo.SearchTerm]에 (유기견센터)[v:Place:Shelter] 좀 알아봐")
+  last-modified (1627377645647)
+}

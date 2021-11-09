@@ -1,0 +1,36 @@
+structure (InfoResult) {
+  description (action 3)
+  property (keyword) {
+    type (Keyword)
+    min (Optional) max (One)
+  }
+  property (link) {
+    type (Link)
+    min (Optional) max (One)
+  }
+  property (source) {
+    type (Source)
+    min (Optional) max (One)
+  }
+  property (image) {
+    type (Image)
+    min (Optional) max (One)
+  }
+  property (name) {
+    type (Name)
+    min (Optional) max (One)
+  }
+  property (title) {
+    type (Title)
+    min (Optional) max (One)
+  }
+  property (description) {
+    type (Description)
+    min (Optional) max (One)
+  }
+  property (descriptionImage) {
+    type (DescriptionImage)
+    min (Optional) max (Many)
+  }
+}
+

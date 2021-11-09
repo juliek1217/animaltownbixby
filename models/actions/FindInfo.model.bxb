@@ -1,0 +1,34 @@
+action (FindInfo) {
+  description (__DESCRIPTION__)
+  type(Search)
+  collect {
+		input (keyword){              
+			type (Keyword)
+			min (Optional) max (One)
+		}
+	}
+  
+	output (InfoResult){
+		throws{
+      error (Error_no_info_result) {
+        on-catch {
+          halt {
+            dialog {template-macro (Error_no_info_result_ui_strings)}
+          }
+        }
+      }
+      error (Error_no_service) {
+        on-catch {
+          halt {
+            dialog{template-macro (Error_no_service_ui_strings)}
+          }
+        }
+      }
+      
+    }
+	}
+}
+
+
+
+

@@ -1,0 +1,9 @@
+structure (LocationResult) {
+  description ()
+  property (point) {
+    type (geo.GeoPoint)
+  }
+  property (address) {
+    type (Address)
+  }
+}

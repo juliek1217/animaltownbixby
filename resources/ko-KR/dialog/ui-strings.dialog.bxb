@@ -1,0 +1,112 @@
+template-macro-def (SearchResult_List){
+	params{
+		param (result){
+			type (SearchResult)
+			min (Optional) max (One)
+		}
+	}
+	content{
+      if ("exists(result.action)"){
+        if ("exists(result.exception)"){
+          switch (result.action[0]) {
+            case (Vet) {   template("[#{value(result.inputLocationDialog[0])}]에서 [#{value(result.itemcount[0])}]개의 동물병원을 찾았습니다. [#{value(result.exception[0])}]")}
+		        case (Shelter){template("[#{value(result.inputLocationDialog[0])}]에서 [#{value(result.itemcount[0])}]개의 동물보호센터를 찾았습니다. [#{value(result.exception[0])}]") }
+            case (Play) {  template("[#{value(result.inputLocationDialog[0])}]에서 [#{value(result.itemcount[0])}]개의 반려견 놀이터를 찾았습니다. [#{value(result.exception[0])}]") }
+		        case (Rest) {  template("[#{value(result.inputLocationDialog[0])}]에서 [#{value(result.itemcount[0])}]개의 휴게소 반려견 놀이터를 찾았습니다. [#{value(result.exception[0])}]") }
+          }
+        }
+        else {
+          switch (result.action[0]) {
+            case (Vet) {   template("[#{value(result.inputLocationDialog[0])}]에서 [#{(size(result))}]개의 동물병원을 찾았습니다.")}
+            case (Shelter){template("[#{value(result.inputLocationDialog[0])}]에서 [#{(size(result))}]개의 동물보호센터를 찾았습니다.") }
+		        case (Play) {  template("[#{value(result.inputLocationDialog[0])}]에서 [#{(size(result))}]개의 반려견 놀이터를 찾았습니다.") }
+		        case (Rest) {  template("[#{value(result.inputLocationDialog[0])}]에서 [#{(size(result))}]개의 휴게소 반려견 놀이터를 찾았습니다.") }
+          }
+        }
+      }
+	}
+}
+
+
+template-macro-def (SearchResult_Detail){
+  params{
+		param (result){
+			type (SearchResult)
+			min (Optional) max (One)
+		}
+	}
+	content{
+		if ("exists(result.name)"){
+			template("[#{value(result.name[0])}] 상세 정보입니다.")
+    }
+    else{
+      template("상세 정보입니다.")
+    }
+	}
+}
+
+
+// last action: findInfo 응급처치, 입양, 외출
+template-macro-def (InfoResult_Detail){
+  params{
+		param (result) {
+			type (InfoResult)
+			min (Optional) max (One)
+		}
+	}
+	content{
+		if ("exists(result[0].name)") {
+			template("[#{value(result[0].name)}]")
+    }
+	}
+}
+
+
+// errors
+template-macro-def (Error_no_result_ui_strings){
+  content{
+    choose (Random){
+      template ("해당 지역에는 조회 결과가 없습니다. 다시 말해주세요.")
+    }
+  }
+}
+
+template-macro-def (Error_no_info_result_ui_strings){
+  content{
+    choose (Random){
+      template ("해당 질문에 대한 조회 결과가 없습니다. 다시 말해주세요.")
+    }
+  }
+}
+
+template-macro-def (Error_no_service_ui_strings){
+  content{
+    choose (Random){
+      template ("동물회관에서 현재 제공하고 있는 서비스는 동물병원, 동물보호센터, 반려견 놀이터, 휴게소 반려견 놀이터 조회 서비스입니다. \n이외에 반려동물의 응급처치법, 유실·유기동물 신고와 입양 방법, 반려동물과의 외출 방법을 제공하고 있습니다. \n이 중에서 원하는 서비스를 다시 말해주세요.")
+    }
+  }
+}
+
+template-macro-def (Error_api_ui_strings){
+  content{
+    choose (Random){
+      template ("API 데이터 수신 도중 문제가 발생했습니다. 잠시 후 이용해주세요.")
+    }
+  }
+}
+
+template-macro-def (Error_unknown_ui_strings){
+  content{
+    choose (Random){
+      template ("알 수 없는 오류가 발생했습니다. 잠시 후 이용해주세요.")
+    }
+  }
+}
+
+template-macro-def (Error_cafe_ui_strings){
+  content{
+    choose (Random){
+      template ("현행 동물보호법에 따라 애견카페와 고양이카페는 불법입니다. 이에 따라 동물회관에서는 지자체 운영 반려견 놀이터의 정보만 제공하고 있습니다.")
+    }
+  }
+}

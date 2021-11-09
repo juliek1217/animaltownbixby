@@ -1,0 +1,24 @@
+train (t-7revtx0266amkfoqrrr76hti8) {
+  utterance ("[g:FindVet] (에버랜드)[v:geo.SearchTerm]에서 가까운 (동물병원)[v:Place:Vet] 찾아줘")
+  last-modified (1626248543904)
+}
+train (t-7w24qte1r33phtocmf82yq3gx) {
+  utterance ("[g:FindInfo] 유기동물 (신고)[v:Keyword:Adoption]")
+  last-modified (1626936560379)
+}
+train (t-786fmqz93i7ua4xz6gcnp3uuk) {
+  utterance ("[g:FindVet] (동물병원)[v:Place:Vet] 좀 검색해줘")
+  last-modified (1626943131950)
+}
+train (t-762t3r1xskxjt56x29v9mulul) {
+  utterance ("[g:FindVet] (마포)[v:geo.SearchTerm] (동물보호센터)[v:Place:Shelter] 있을까")
+  last-modified (1626944224145)
+}
+train (t-7kv8humr4laudg0el92d7lodt) {
+  utterance ("[g:FindVet] (충청남도)[v:geo.SearchTerm]에 있는 (동물보호센터)[v:Place:Shelter] 뭐가 있을까")
+  last-modified (1626944396393)
+}
+train (t-7a6s45ziwpr7wugfr6g2503z2) {
+  utterance ("[g:FindVet] (유기동물센터)[v:Place:Shelter] (경상도)[v:geo.SearchTerm]내에서 검색해줄래")
+  last-modified (1626944711454)
+}

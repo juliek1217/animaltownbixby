@@ -1,0 +1,36 @@
+capsule {
+  id (lionbridge.heyPet)
+  version (1.0.3)
+  format (3)
+  targets {
+    target (bixby-mobile-ko-KR)
+  }
+  runtime-version (9){
+    overrides{
+      result-view-capsule-lock (false)
+    }
+  }
+  store-countries {
+    all
+  }
+  device-models {
+    all
+  }
+
+  store-sections{
+    section (Local)
+    section (ArtAndLifestyle)
+  }
+
+
+  capsule-imports{
+    import (viv.geo){
+			as(geo) version (9.28.2)
+		}
+    import (bixby.phoneCall) { version(1.0.12) as (phone)}
+  }
+
+  permissions{
+    device-location-access
+  }
+}

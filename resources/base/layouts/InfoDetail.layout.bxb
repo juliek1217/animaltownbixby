@@ -1,0 +1,64 @@
+layout-macro-def (InfoDetail) {
+	params { //List of parameters to be defined in the layout-macro-def
+		param (this) { 
+			type (InfoResult) // output structure
+			min (Optional) max (One)
+		}
+	}
+	
+	content {
+		section {
+			content {
+            title-area {
+              halign (Center)
+              slot1 {
+                text {
+                  style (Title_M)
+                  value ("#{value(this.title)}")
+                }
+              }
+            }
+            spacer
+            if (exists(this.description)) {
+              paragraph {
+                style(Detail_M)
+                value("#{value(this.description)}")
+              }
+            }
+            if (size(this.descriptionImage) >= 1) {
+              if(this.keyword == 'Emergency'){
+                for-each (this.descriptionImage){
+                  as (item){
+                    image {
+                    aspect-ratio(3:4)
+                    object-fit(Contain)
+                    url("#{value(item)}")
+                    }
+                  }
+                }
+              }
+              else{
+                for-each (this.descriptionImage){
+                  as (item){
+                    image {
+                    aspect-ratio(1:1)
+                    object-fit(Contain)
+                    url("#{value(item)}")
+                    }
+                  }
+                }
+              }
+            }
+            attribution-link {
+              label {
+                template ("출처: #{value(this.source)}")
+              }
+              url {
+                template ("#{value(this.link)}")
+              }
+            }
+
+			}
+		}
+	}
+}

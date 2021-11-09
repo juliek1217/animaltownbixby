@@ -1,0 +1,4 @@
+structure (SearchLocation) {
+  description (search target location)
+  role-of(geo.GeoPoint)
+}

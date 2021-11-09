@@ -1,0 +1,32 @@
+train (t-jq9ejdrfqgybr186kk2h4vby5) {
+  utterance ("[g:FindPlay] (마포구)[v:geo.SearchTerm] 반려견 (놀이터)[v:Place:Play] 찾아줘")
+  last-modified (1626251831550)
+}
+train (t-j0hzcv5nn9vekoakdys2zho43) {
+  utterance ("[g:FindPlay] (충청남도)[v:geo.SearchTerm] (휴게소)[v:Rest:Restarea] 반려견 (놀이터)[v:Place:Play]")
+  last-modified (1626938172996)
+}
+train (t-jwthmorosqlqt0lr4aq1smbj1) {
+  utterance ("[g:FindInfo] 반려견 (응급처치)[v:Keyword:Emergency] 방법 좀 알려줘")
+  last-modified (1626759275821)
+}
+train (t-j04rovjf01lbuzxd1mhri065w) {
+  utterance ("[g:FindPlay] 가까운 강아지랑 (갈만한 곳)[v:Place:Play] 좀 띄워")
+  last-modified (1626940665219)
+}
+train (t-jg493y5uiwz2ahtv3b2h8g7xm) {
+  utterance ("[g:FindVet] (영등포역)[v:geo.SearchTerm] 근처 (동물보호센터)[v:Place:Shelter] 찾아줘")
+  last-modified (1627032330629)
+}
+train (t-jbxr2m271vgipnvvl6akvb76m) {
+  utterance ("[g:FindPlay] (동대문구)[v:geo.SearchTerm]에서 반려견 (놀이터)[v:Place:Play] 좀 검색해봐")
+  last-modified (1627271343955)
+}
+train (t-jee0gjjuchgmyxahlb5o85zjj) {
+  utterance ("[g:FindVet] (망원시장)[v:geo.SearchTerm] 근방에 (동물보호센터)[v:Place:Shelter] 알려주세요")
+  last-modified (1627278104822)
+}
+train (t-jmm6krgjrg8an2pot59fd1o9y) {
+  utterance ("[g:FindPlay] 여기서 가까운 (애견카페)[v:PlaceException:Cafe] 검색해봐")
+  last-modified (1627283448192)
+}

@@ -1,0 +1,4 @@
+enum (LocationAll) {
+  description (__DESCRIPTION__)
+  symbol (locationAll)
+}

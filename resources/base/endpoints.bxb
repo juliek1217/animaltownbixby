@@ -1,0 +1,32 @@
+endpoints {
+  action-endpoints {
+    // Uncomment the lines below and enter the information for actions, inputs, and the appropriate local or remote endpoints
+
+    // Action 1
+    action-endpoint (FindVet) {
+      accepted-inputs (place, rest, placeException, locationAll, location, locationDivision, currentLocation, currentDivision)
+      local-endpoint (findVet.js)
+    }
+    // Action 2
+    action-endpoint (FindPlay) {
+      accepted-inputs (place,  rest, placeException, locationAll, location, locationDivision, currentLocation, currentDivision)
+      local-endpoint (findPlay.js)
+    }
+    // Action 3
+    action-endpoint (FindInfo) {
+      accepted-inputs (keyword)
+      local-endpoint (findInfo.js)
+    }
+
+    // common
+    action-endpoint (MapPunchOut) {
+      accepted-inputs (point)
+      local-endpoint (utils/mapPunchOut.js)
+    }
+    action-endpoint (CallPunchOut) {
+      accepted-inputs (call)
+      local-endpoint (utils/callPunchOut.js)
+    }
+
+  }
+}

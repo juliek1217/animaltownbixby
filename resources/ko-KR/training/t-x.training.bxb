@@ -1,0 +1,52 @@
+train (t-xusxhsfsrjyi012jr19exzm72) {
+  utterance ("[g:FindInfo] 강아지를 (입양)[v:Keyword:Adoption]하고 싶어")
+  last-modified (1626339551416)
+}
+train (t-xpeifn3h10y4n4ydr2rpkjr9j) {
+  utterance ("[g:FindPlay] 애견 (휴게소)[v:Rest:Restarea] (놀이터)[v:Place:Play] 얼른 열어줘")
+  last-modified (1626940468359)
+}
+train (t-xlt5md3t3s62lrj678bpabyuy) {
+  utterance ("[g:FindPlay] 반려견 (놀이터)[v:Place:Play] (부산 해운대구)[v:geo.SearchTerm]에서 빨리 찾아줄래")
+  last-modified (1626942118429)
+}
+train (t-xr3iybzbf7u8gq7xlbcv1bj4c) {
+  utterance ("[g:FindVet] (동물보호소)[v:Place:Shelter]")
+  last-modified (1626942642226)
+}
+train (t-x4k68xmu1wp8vmwvi03cdj3sd) {
+  utterance ("[g:FindVet] (동물 병원)[v:Place:Vet] 있지")
+  last-modified (1626943201424)
+}
+train (t-xggus34rtkaylrnd517h1utd7) {
+  utterance ("[g:FindVet] 현재위치에서 (유기동물센터)[v:Place:Shelter]를 말해")
+  last-modified (1626943543587)
+}
+train (t-xr23evbrk4gddk1srnj3q6n4k) {
+  utterance ("[g:FindVet] (상암동)[v:geo.SearchTerm]에서 운영중인 (유기동물센터)[v:Place:Shelter] 보여주라")
+  last-modified (1626944251531)
+}
+train (t-xi9s2rou6ei551r22sn6ceyii) {
+  utterance ("[g:FindVet] (유기묘 센터)[v:Place:Shelter] (광주시)[v:geo.SearchTerm]에서 말해줄래")
+  last-modified (1626944638614)
+}
+train (t-xl3od9gdkuetzs12izendsf7l) {
+  utterance ("[g:FindPlay] (전국)[v:LocationAll:locationAll]의 (휴게소)[v:Rest:Restarea] 반려견 (놀이터)[v:Place:Play] 알려줘")
+  last-modified (1627276053194)
+}
+train (t-x1j4gz59sa001y5xehh0sn81k) {
+  utterance ("[g:FindVet] (충청도)[v:geo.SearchTerm]에 있는 (유기묘 센터)[v:Place:Shelter] 알아봐봐")
+  last-modified (1627278080377)
+}
+train (t-xit8f07r63xju0ex6aahvgg98) {
+  utterance ("[g:FindPlay] 강아지 (파크)[v:Place:Play] 근방에 열어")
+  last-modified (1627279030093)
+}
+train (t-xfwe8mewz7bf3l5gplsqr463h) {
+  utterance ("[g:FindVet] 화곡동에 (동물보호센터)[v:Place:Shelter] 알려주라")
+  last-modified (1627376553557)
+}
+train (t-xayyoaklwurpp54kkm9vc3kg5) {
+  utterance ("[g:FindPlay] (서울)[v:geo.SearchTerm]에서 반려동물이랑 (놀러 갈 만한 곳)[v:Place:Play] 없어")
+  last-modified (1627377274530)
+}

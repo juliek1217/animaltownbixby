@@ -1,0 +1,11 @@
+action (CallPunchOut) {
+  type(Search)
+  description (__DESCRIPTION__)
+  collect {
+    input (phone) {
+      type (Phone)
+      min (Optional) max (One)
+    }
+  }
+  output (PunchOutUrl)
+}

@@ -1,0 +1,52 @@
+train (t-c7k3ocqv04pq2hlndsr51lkku) {
+  utterance ("[g:FindPlay] (에버랜드)[v:geo.SearchTerm]에서 가까운 반려동물 (놀이터)[v:Place:Play]")
+  last-modified (1626251953267)
+}
+train (t-cjv6ubvwdujxeqhqnqly79uld) {
+  utterance ("[g:FindVet] (마포구)[v:geo.SearchTerm] (동물병원)[v:Place:Vet] 찾아줘")
+  last-modified (1626338177447)
+}
+train (t-cssu9zxv29f0f11pn40i9rhxg) {
+  utterance ("[g:FindPlay] 개랑 (갈만한 곳)[v:Place:Play] 띄워줘")
+  last-modified (1626940514067)
+}
+train (t-ciw2j6fczv8qu09p0tq6tnscw) {
+  utterance ("[g:FindPlay] (마포)[v:geo.SearchTerm] 애견 (공원)[v:Place:Play] 말해줘")
+  last-modified (1626940918083)
+}
+train (t-czowuewkp2wju3jnob1jciikd) {
+  utterance ("[g:FindPlay] (전국)[v:LocationAll:locationAll] 개 (쉼터)[v:Place:Play] 띄워봐")
+  last-modified (1626941531096)
+}
+train (t-c832yaf1qf5znha8giyl8ftsc) {
+  utterance ("[g:FindPlay] (경상도)[v:geo.SearchTerm]내 강아지와 (가볼만한 곳)[v:Place:Play] 보여주라")
+  last-modified (1626941896612)
+}
+train (t-ctmyclwyod3bpoca8ljzbefne) {
+  utterance ("[g:FindVet] (동물 병원)[v:Place:Vet] 알려줘")
+  last-modified (1626943049278)
+}
+train (t-cnp36oxklo0qdufuupf965fak) {
+  utterance ("[g:FindVet] (동물 병원)[v:Place:Vet] 나와라")
+  last-modified (1626943174670)
+}
+train (t-cl41tktrz8z2j4ewo3jynkb2r) {
+  utterance ("[g:FindVet] (국내)[v:LocationAll:locationAll]에 있는 (동물병원)[v:Place:Vet] 빨리 다 찾아줘")
+  last-modified (1626943628309)
+}
+train (t-c9x8zk61zgmle9ctaw96tpy9l) {
+  utterance ("[g:FindPlay] (대학로)[v:geo.SearchTerm]에서 반려견 (놀이터)[v:Place:Play] 검색해")
+  last-modified (1627272550462)
+}
+train (t-cqppxziclslq10gvzdr69ouhw) {
+  utterance ("[g:FindVet] (동물 메디컬 센터)[v:Place:Vet] 알아봐줄래")
+  last-modified (1627369318065)
+}
+train (t-c1ty1eoe4mmyzr0vqtx95fsr7) {
+  utterance ("[g:FindPlay] (서울)[v:geo.SearchTerm]에 있는 모든 반려견 (놀이터)[v:Place:Play] 불러줘")
+  last-modified (1627458598220)
+}
+train (t-ck69ejls5p7xllqf8y07eer8r) {
+  utterance ("[g:FindPlay] (서울시)[v:geo.SearchTerm] 동물 (놀이터)[v:Place:Play] 말해봐")
+  last-modified (1627377423444)
+}

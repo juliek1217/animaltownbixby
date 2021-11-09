@@ -1,0 +1,3 @@
+text (Animal) {
+  description (__DESCRIPTION__)
+}

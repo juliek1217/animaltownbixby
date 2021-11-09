@@ -1,0 +1,56 @@
+train (t-ssrv1o1vpimys7wakcj4didho) {
+  utterance ("[g:FindPlay] (전국)[v:LocationAll:locationAll] (휴게소)[v:Rest:Restarea] 반려견 (놀이터)[v:Place:Play] 찾아줘")
+  last-modified (1626938119055)
+}
+train (t-szoys7dckc2a9tyi0vlan288u) {
+  utterance ("[g:FindPlay] 근처에서 반려동물이랑 (가볼만한곳)[v:Place:Play] 좀 검색해")
+  last-modified (1626940623821)
+}
+train (t-sp2npjitm8drhy6gd3mi2pf8o) {
+  utterance ("[g:FindPlay] (용인)[v:geo.SearchTerm]에 괜찮은 (휴게소)[v:Rest:Restarea] 동물 (공원)[v:Place:Play] 말해봐")
+  last-modified (1626941395439)
+}
+train (t-slnpcnbvay86bo31m5k9md69x) {
+  utterance ("[g:FindVet] (동물 병원)[v:Place:Vet]")
+  last-modified (1626942591782)
+}
+train (t-s5gb061xc380ad414c5a28zvm) {
+  utterance ("[g:FindVet] (마포)[v:geo.SearchTerm] (동물병원)[v:Place:Vet] 말해줘")
+  last-modified (1626943669784)
+}
+train (t-s03sf4dlfinms71lrfa35w693) {
+  utterance ("[g:FindVet] (경기도)[v:geo.SearchTerm]의 (동물병원)[v:Place:Vet] 열어봐")
+  last-modified (1626944009016)
+}
+train (t-s4in8od70qx2lmy3tu0ykcmqu) {
+  utterance ("[g:FindPlay] 근방의 반려견 (놀이터)[v:Place:Play] 알려줘")
+  last-modified (1627275430000)
+}
+train (t-sz0sgmc06sbowp9j9c79vcxpq) {
+  utterance ("[g:FindVet] (동물보호센터)[v:Place:Shelter] (대구 중구)[v:geo.SearchTerm]에 있는데 열어주세요")
+  last-modified (1627277490029)
+}
+train (t-sh5ngncmh9s47h94xfr2mn52q) {
+  utterance ("[g:FindVet] (서울 중구)[v:geo.SearchTerm]의 (동물병원)[v:Place:Vet] 알려줘")
+  last-modified (1627277969742)
+}
+train (t-s76qgyaf5c6y7devjqnruyfmh) {
+  utterance ("[g:FindVet] (국내)[v:LocationAll:locationAll]에 있는 (유기묘 보호소)[v:Place:Shelter] 나열해봐")
+  last-modified (1627278056130)
+}
+train (t-swt8l5xdd7cmh38cd89zkef8d) {
+  utterance ("[g:FindPlay] 강아지랑 (갈만한 곳)[v:Place:Play] 가까운데로 좀 띄워")
+  last-modified (1627278925556)
+}
+train (t-stl9go25jyt8dpb0dvvbytl2m) {
+  utterance ("[g:FindVet] 현재위치에서 (동물 메디컬센터)[v:Place:Vet] 말해")
+  last-modified (1627372651845)
+}
+train (t-sbk9ea4vow46p14gi4ped3acq) {
+  utterance ("[g:FindVet] (서울시)[v:geo.SearchTerm] (동물보호소)[v:Place:Shelter] 알아봐")
+  last-modified (1627376655420)
+}
+train (t-s285tnzq1l3sqo66cepiy31lp) {
+  utterance ("[g:FindPlay] 동물 (놀이터)[v:Place:Play] 좀 (서울)[v:geo.SearchTerm]에서 검색해봐봐")
+  last-modified (1627377317813)
+}

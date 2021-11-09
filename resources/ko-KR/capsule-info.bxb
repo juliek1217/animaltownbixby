@@ -1,0 +1,31 @@
+capsule-info {
+  display-name (동물회관)
+  developer-name (사자다리)
+  icon-asset (/images/icons/logo.png)
+  description (반려견과 반려묘를 위한 전국의 동물병원, 동물보호센터, 지자체 운영 반려견 놀이터, 휴게소 반려견 놀이터의 위치와 정보를 사용자가 원하는 지역, 장소, 현재위치에 따라 조회하여 제공하는 캡슐입니다. 이외에 반려동물 응급처치, 유실·유기동물 신고와 입양 방법, 반려동물과의 외출 방법을 제공하고 있습니다.)
+  search-keywords {
+    keyword (반려동물)
+    keyword (반려견)
+    keyword (반려묘)
+    keyword (애견)
+    keyword (강아지)
+    keyword (고양이)
+    keyword (동물)
+    keyword (pet)
+    keyword (dog)
+  }
+  dispatch-name(동물회관)
+  dispatch-aliases {
+    alias (동물 회관)
+  }
+
+  privacy-policy-url (https://sajadari.github.io/2021-07-28-heyPet-policy/)
+  website-url (http://sajadari.github.io) 
+  // terms-url ()
+
+  requested-permissions{
+    permission (device-location-access){
+      justification ("사용자의 위치를 사용합니다.")
+    }
+  }
+}

@@ -1,0 +1,48 @@
+train (t-3qekmcwzlr1dt8srwbh3x5w5u) {
+  utterance ("[g:FindPlay] (용인)[v:geo.SearchTerm] (휴게소)[v:Rest:Restarea] 반려견 (놀이터)[v:Place:Play] 찾아봐")
+  last-modified (1626938210172)
+}
+train (t-3n8ysu84qmch7g9i0ok25bwmb) {
+  utterance ("[g:FindPlay] (천안시)[v:geo.SearchTerm]에서 반려견 (놀이터)[v:Place:Play] 찾아줘")
+  last-modified (1626395430234)
+}
+train (t-3iwfi8ciiovhv2rudwlqoyasx) {
+  utterance ("[g:FindVet] (충청북도)[v:geo.SearchTerm]에 있는 (동물병원)[v:Place:Vet] 다 찾아줘")
+  last-modified (1626755934474)
+}
+train (t-3f0tuk7rha7b5jwwzm501kk6v) {
+  utterance ("[g:FindVet] (전국)[v:LocationAll:locationAll]에 있는 (동물보호소)[v:Place:Shelter] 좀 다 말해줘")
+  last-modified (1626756790540)
+}
+train (t-3dcdl71zt0go5f2r1vxc1363k) {
+  utterance ("[g:FindInfo] 강아지 (입양)[v:Keyword:Adoption]")
+  last-modified (1626936502402)
+}
+train (t-3zbpd13f25tko17f0dxmypu6y) {
+  utterance ("[g:FindPlay] 강아지랑 (가볼만한곳)[v:Place:Play]")
+  last-modified (1626940103449)
+}
+train (t-3o2va9yufkmamxr5sftyn57g5) {
+  utterance ("[g:FindPlay] (현대백화점)[v:geo.SearchTerm] 반려묘 (휴게소)[v:Rest:Restarea] (파크)[v:Place:Play] 열어주라")
+  last-modified (1626941722081)
+}
+train (t-308zrubm85wq3efg5hvtecj58) {
+  utterance ("[g:FindPlay] 고양이 (공원)[v:Place:Play] (용인)[v:geo.SearchTerm] 근방에서 찾아줄래")
+  last-modified (1626942178834)
+}
+train (t-370g7794500bw590axdpxq8di) {
+  utterance ("[g:FindVet] (동물보호센터)[v:Place:Shelter] 있지")
+  last-modified (1626943346758)
+}
+train (t-339jh9jagjvpcjd7g4gfeiq21) {
+  utterance ("[g:FindVet] 가까운 (동물병원)[v:Place:Vet] 띄워")
+  last-modified (1626943458840)
+}
+train (t-3ienadmv3qop7vmdexwnx6cyl) {
+  utterance ("[g:FindPlay] 근방에서 반려견 (놀이터)[v:Place:Play] 알려줘")
+  last-modified (1627275471718)
+}
+train (t-3g6jm1a38fzqg4r9wods5n812) {
+  utterance ("[g:FindVet] (서울)[v:geo.SearchTerm]에 있는 모든 (유기견보호소)[v:Place:Shelter] 나와라")
+  last-modified (1627377465262)
+}

@@ -1,0 +1,124 @@
+action (FindPlay) {
+	description (Search for pet playground and create a list as an output)
+	type(Search)
+	collect {
+    input (place){              
+			type (Place)
+			min (Optional) max (One)
+		}
+    input (rest){              
+			type (Rest)
+			min (Optional) max (One)
+		}
+    input (placeException){              
+			type (PlaceException)
+			min (Optional) max (One)
+		}
+    input (locationAll){              // 전국
+			type (LocationAll)
+			min (Optional) max (One)
+		}
+
+		input (location) {                // 발화시 지역명을 말함 
+			type (geo.NamedPoint)
+			min (Optional) max (One)
+		}
+		computed-input (locationDivision){  // 발화시 지역 정보
+			type (geo.GeocodedAddress)
+			min (Optional) max (One)
+			compute{
+				intent{
+					goal : geo.GeocodedAddress
+					value : $expr(location.point)
+				}
+			}
+		}
+
+		input (point) {                   // 위치 좌표
+			type (geo.CurrentLocation)
+			min (Optional) max (One)
+			default-init{
+				intent {
+					goal: geo.CurrentLocation
+					route : geo.CurrentLocation
+				}
+			}
+			hidden
+		}
+    computed-input (currentLocation) {  // 현재 위치 좌표
+			type (geo.GeoPoint)
+			min (Optional) max (One)
+			default-select{
+				with-rule{ select-first}
+			}
+			compute{
+				intent{
+					goal : geo.GeoPoint
+					route : geo.CurrentLocation
+				}
+			}
+		}		
+		computed-input (currentDivision){ // 현재 위치 정보
+			type (geo.GeocodedAddress)
+			min (Optional) max (One)
+			compute{
+				intent{
+					goal : geo.GeocodedAddress
+					route : geo.CurrentLocation
+				}
+			}
+		}
+	}
+  
+	output (SearchResult){
+   sort{
+       each (r){
+        sorting (r.distanceSorting){
+          by (Desc)
+          inverted
+        }
+       }
+   } 
+   
+   // exception errors
+		throws{
+      
+      error (Error_no_result) {
+        on-catch {
+          halt {
+            dialog {template-macro (Error_no_result_ui_strings)}
+          }
+        }
+      }
+      error (Error_no_service) {
+        on-catch {
+          halt {
+            dialog{template-macro (Error_no_service_ui_strings)}
+          }
+        }
+      }
+      error (Error_api) {
+        on-catch {
+          halt {
+            dialog{template-macro (Error_api_ui_strings)}
+          }
+        }
+      }
+      error (Error_unknown) {
+        on-catch {
+          halt {
+            dialog{template-macro (Error_unknown_ui_strings)}
+          }
+        }
+      }
+      error (Error_cafe) {
+        on-catch {
+          halt {
+            dialog{template-macro (Error_cafe_ui_strings)}
+          }
+        }
+      }
+    }// throw
+
+	} // output
+} // action

@@ -1,0 +1,36 @@
+train (t-qx2uo1f49xckdsa9je4w8c1cj) {
+  utterance ("[g:FindVet] (광주시)[v:geo.SearchTerm] (동물병원)[v:Place:Vet] 다 말해줘")
+  last-modified (1626248425526)
+}
+train (t-q5znoc1q4ajny4oblo0we6us6) {
+  utterance ("[g:FindPlay] (부산)[v:geo.SearchTerm] 반려견 (놀이터)[v:Place:Play]")
+  last-modified (1626251843024)
+}
+train (t-q8ypimvpwzf3xdnd2hm2dycfk) {
+  utterance ("[g:FindVet] (서울)[v:geo.SearchTerm]에 있는 (동물병원)[v:Place:Vet] 다 찾아줘")
+  last-modified (1626755300392)
+}
+train (t-q46jz08smnh6srfa3xvotob1a) {
+  utterance ("[g:FindVet] 제일 가까운 (동물병원)[v:Place:Vet] 알려줘")
+  last-modified (1626755452137)
+}
+train (t-q35clfz9e4xyfeh6b28pmwpgo) {
+  utterance ("[g:FindInfo] 반려묘 (인공호흡)[v:Keyword:Emergency] 어떻게 하는지 찾아줘")
+  last-modified (1626936689342)
+}
+train (t-qp0oep28r8cxszgpmwih3a1fn) {
+  utterance ("[g:FindVet] (동물보호센터)[v:Place:Shelter]")
+  last-modified (1626942621316)
+}
+train (t-qoo4kcf9634cgg5athouali1o) {
+  utterance ("[g:FindVet] (구로구)[v:geo.SearchTerm]에서 (동물병원)[v:Place:Vet] 좀 검색해봐")
+  last-modified (1627272211131)
+}
+train (t-q2my1c6h6egczuaze5vycu7vx) {
+  utterance ("[g:FindPlay] (월정사)[v:geo.SearchTerm] 가까이에 있는 (휴게소)[v:Rest:Restarea] 반려견 (놀이터)[v:Place:Play] 찾아줘")
+  last-modified (1627276213061)
+}
+train (t-qsj63jk1ojg80w9xnwnyc4eje) {
+  utterance ("[g:FindVet] (동물보호센터)[v:Place:Shelter] (경상북도)[v:geo.SearchTerm]에 있는 거 불러줘")
+  last-modified (1627277616825)
+}

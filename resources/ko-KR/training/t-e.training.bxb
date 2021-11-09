@@ -1,0 +1,28 @@
+train (t-eysaj6v6xzkvwqzm0itr8dv92) {
+  utterance ("[g:FindPlay] 우리집 개랑 (갈만한곳)[v:Place:Play] 빨리 보여줘")
+  last-modified (1626940359315)
+}
+train (t-e9zfh04flfpeqjhosqda5pbsm) {
+  utterance ("[g:FindPlay] 근처 반려견 (놀이터)[v:Place:Play] 찾아")
+  last-modified (1626940551451)
+}
+train (t-e2xs1u0c8t587syxtnapm87qx) {
+  utterance ("[g:FindPlay] 내위치에서 가까운 개 (쉼터)[v:Place:Play] 좀 말해줘")
+  last-modified (1626940761828)
+}
+train (t-eaga4jchnh9je5slvpxp3laom) {
+  utterance ("[g:FindPlay] (제주도)[v:geo.SearchTerm]에서 개가 갈만한 (휴게소)[v:Rest:Restarea] 반려견 (놀이터)[v:Place:Play] 검색해주라")
+  last-modified (1626942049757)
+}
+train (t-eroab41hvd8pwzvybkvakb2yd) {
+  utterance ("[g:FindVet] (인천)[v:geo.SearchTerm]에 괜찮은 (동물병원)[v:Place:Vet] 말해봐")
+  last-modified (1626943902551)
+}
+train (t-e2mea6rinmdhebgyl5j7vnfs3) {
+  utterance ("[g:FindVet] (타임스퀘어)[v:geo.SearchTerm] (유기견 보호소)[v:Place:Shelter] 검색해주라")
+  last-modified (1626944274460)
+}
+train (t-efi7xm5n0rtcmz0k6429701nv) {
+  utterance ("[g:FindPlay] 가까운 (휴게소)[v:Rest:Restarea] 반려견 (놀이터)[v:Place:Play] 찾아줘")
+  last-modified (1627032758991)
+}

@@ -1,0 +1,4 @@
+enum (Rest) {
+  description (__DESCRIPTION__)
+  symbol (Restarea)
+}

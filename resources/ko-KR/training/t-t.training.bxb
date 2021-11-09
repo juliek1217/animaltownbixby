@@ -1,0 +1,32 @@
+train (t-tnexkw56r0eu6o19ukm41rhrk) {
+  utterance ("[g:FindVet] 근처 (동물병원)[v:Place:Vet] 찾아줘")
+  last-modified (1626423538530)
+}
+train (t-t2czsek463bcoe8kajmca3y14) {
+  utterance ("[g:FindPlay] 반려견이랑 (갈만한곳)[v:Place:Play]")
+  last-modified (1626937525740)
+}
+train (t-tvnq2lc9p71dgonb3rlgnipqb) {
+  utterance ("[g:FindPlay] 반려묘 (쉼터)[v:Place:Play] 찾아줘")
+  last-modified (1626940280531)
+}
+train (t-tad1y9edhwp9m9hpd4q9fiesy) {
+  utterance ("[g:FindVet] (부산)[v:geo.SearchTerm]에서 (동물병원)[v:Place:Vet] 보여줘봐")
+  last-modified (1626943948810)
+}
+train (t-t4o2sdor1qvj3nh0xy4frrdvi) {
+  utterance ("[g:FindVet] (영등포구)[v:geo.SearchTerm] 근처 (동물보호센터)[v:Place:Shelter] 찾아줘")
+  last-modified (1627031886898)
+}
+train (t-tz68qignohhar0uhdy14ult6j) {
+  utterance ("[g:FindInfo] 개 (인공호흡)[v:Keyword:Emergency]하는 방법이 있으면 열어줘봐")
+  last-modified (1627366696877)
+}
+train (t-t6u1kl9l478ivv1f1l3c7hhg7) {
+  utterance ("[g:FindVet] 여기 근처의 (동물병원)[v:Place:Vet]을 알려달라")
+  last-modified (1627372236265)
+}
+train (t-thh7gfp9vklsxzfb9i2gzax54) {
+  utterance ("[g:FindVet] (동물 의료센터)[v:Place:Vet]")
+  last-modified (1627372533460)
+}

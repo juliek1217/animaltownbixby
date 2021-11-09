@@ -1,0 +1,36 @@
+train (t-d480zg80qjf9x61iru69bez7p) {
+  utterance ("[g:FindInfo] 반려묘 (인공호흡)[v:Keyword:Emergency]")
+  last-modified (1626936460077)
+}
+train (t-de5jlgmc8wlhkbiz182j5qhmu) {
+  utterance ("[g:FindInfo] 반려견 (분양)[v:Keyword:Adoption]")
+  last-modified (1626936531920)
+}
+train (t-dh784esfvatszt9sky7qtjsej) {
+  utterance ("[g:FindInfo] 강아지 (입양)[v:Keyword:Adoption]은 어떻게 하는지 알려줘")
+  last-modified (1626936704390)
+}
+train (t-dw35me0kylbvpn20jdq5hfil5) {
+  utterance ("[g:FindInfo] (입양)[v:Keyword:Adoption]하는 방법 나와라")
+  last-modified (1626936845228)
+}
+train (t-dfclodpqiggtwietfcgotvr84) {
+  utterance ("[g:FindPlay] (부산)[v:geo.SearchTerm]에서 반려동물이랑 (갈만한 곳)[v:Place:Play] 보여줘봐")
+  last-modified (1626941449472)
+}
+train (t-dj4sjo0l9pp9ncmkvhvcv28u5) {
+  utterance ("[g:FindPlay] (부산광역시)[v:geo.SearchTerm]의 반려묘가 (가볼만한 곳)[v:Place:Play] 검색해봐")
+  last-modified (1626941480213)
+}
+train (t-di3l1a1mycjxkr8as52iqltwk) {
+  utterance ("[g:FindPlay] (충청남도)[v:geo.SearchTerm]에 있는 애견이랑 (갈만한 곳)[v:Place:Play] 뭐가 있을까")
+  last-modified (1626941832614)
+}
+train (t-djzgzbp6ygxisqoifg81hbm87) {
+  utterance ("[g:FindVet] (전국)[v:LocationAll:locationAll]에 있는 (유기묘 보호소)[v:Place:Shelter] 띄워봐")
+  last-modified (1626944324073)
+}
+train (t-dr2q7noq1iq4pz885mqjt6rb3) {
+  utterance ("[g:FindVet] (세종시)[v:geo.SearchTerm] 가까이에 (동물보호센터)[v:Place:Shelter] 열어주라")
+  last-modified (1626944482649)
+}

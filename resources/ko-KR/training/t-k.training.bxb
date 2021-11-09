@@ -1,0 +1,40 @@
+train (t-kth4xcxqewrr5onc8sv4aksiu) {
+  utterance ("[g:FindPlay] (서울시)[v:geo.SearchTerm] 반려견 (놀이터)[v:Place:Play] 찾아줘")
+  last-modified (1626331078695)
+}
+train (t-k1y2oxrbyceblb77bndf7n1x1) {
+  utterance ("[g:FindInfo] 반려견 (외출)[v:Keyword:Walk] 팁 좀 알려줘")
+  last-modified (1626844487927)
+}
+train (t-khh0u3kzzsf273dj2tlikonfc) {
+  utterance ("[g:FindPlay] (강남구)[v:geo.SearchTerm]에 반려견이랑 (갈만한 곳)[v:Place:Play] 좀 알려줘")
+  last-modified (1626398568505)
+}
+train (t-kv9u7g7yp9sk1r1g55aci5axy) {
+  utterance ("[g:FindVet] (전국)[v:LocationAll:locationAll] (동물병원)[v:Place:Vet] 찾아줘")
+  last-modified (1626400261500)
+}
+train (t-kd9nr3aezk0ze21b13uyxb4fh) {
+  utterance ("[g:FindPlay] 반려동물 (공원)[v:Place:Play] 알려줘")
+  last-modified (1626940299197)
+}
+train (t-k8dafp1k6xob0mogwcxrhrng5) {
+  utterance ("[g:FindPlay] (휴게소)[v:Rest:Restarea] 반려견 (놀이터)[v:Place:Play] 얼른 열어줘")
+  last-modified (1626940437790)
+}
+train (t-kdtnyvya20xoprnuniw2f23t5) {
+  utterance ("[g:FindVet] (신촌역 현대백화점)[v:geo.SearchTerm] (동물병원)[v:Place:Vet] 열어줘")
+  last-modified (1626943826437)
+}
+train (t-kj6w0ii8cwzty2x8o023szve5) {
+  utterance ("[g:FindVet] (수산시장)[v:geo.SearchTerm]의 (동물병원)[v:Place:Vet] 알아봐")
+  last-modified (1627278029604)
+}
+train (t-k8oqwjdj4jjs0fhla6aq43rzy) {
+  utterance ("[g:FindPlay] 강아지 (파크)[v:Place:Play] 띄워봐라")
+  last-modified (1627278473084)
+}
+train (t-krsz1o7lwwpw4l5uy9sx7poto) {
+  utterance ("[g:FindVet] (금곡동)[v:geo.SearchTerm]에 있는 (동물 병원)[v:Place:Vet] 찾아줘")
+  last-modified (1627966380502)
+}

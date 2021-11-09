@@ -1,0 +1,48 @@
+train (t-phlt2dumq5f3pj2hdj3ue52pl) {
+  utterance ("[g:FindInfo] 반려묘랑 (외출)[v:Keyword:Walk] 할 때 팁 알려줘")
+  last-modified (1626845614524)
+}
+train (t-plsaqdm5f9v1zlghoprs7vy5l) {
+  utterance ("[g:FindVet] (충청남도)[v:geo.SearchTerm]에 (동물병원)[v:Place:Vet] 좀 찾아줘")
+  last-modified (1626422633981)
+}
+train (t-pc45r3w5hkni0u814lrul107e) {
+  utterance ("[g:FindVet] (전국)[v:LocationAll:locationAll]에 있는 모든 (유기묘보호소)[v:Place:Shelter] 말해줘")
+  last-modified (1626756496972)
+}
+train (t-pnqk2xwpylgxua1blzu989hef) {
+  utterance ("[g:FindVet] (전국)[v:LocationAll:locationAll]에 있는 (유기동물보호소)[v:Place:Shelter] 알려줘")
+  last-modified (1626756581621)
+}
+train (t-pefvds1jras9ir6dfceyeucib) {
+  utterance ("[g:FindPlay] 반려견과 함께 (가볼만한곳)[v:Place:Play]")
+  last-modified (1626937542930)
+}
+train (t-p4wzvkxwwncnynen6ydvbs648) {
+  utterance ("[g:FindVet] (유기견보호센터)[v:Place:Shelter]")
+  last-modified (1626942711600)
+}
+train (t-p5yubc859pptw3nmc5h8b7bju) {
+  utterance ("[g:FindVet] 근처에서 (유기견 보호소)[v:Place:Shelter] 검색해")
+  last-modified (1626943566999)
+}
+train (t-pifvnumqh6x6dr25d73zvq0fc) {
+  utterance ("[g:FindVet] (전국)[v:LocationAll:locationAll] (유기묘 보호소)[v:Place:Shelter] 띄워봐")
+  last-modified (1626944098186)
+}
+train (t-pi9vy8wjk7y1vr1k1mwg41oqr) {
+  utterance ("[g:FindInfo] 동물 (응급처치)[v:Keyword:Emergency]법 있으면 말해줄래")
+  last-modified (1627276701779)
+}
+train (t-p50zixst3jj1cbirmsjrit20h) {
+  utterance ("[g:FindPlay] 반려견 (휴게소)[v:Rest:Restarea] (놀이터)[v:Place:Play] 여기 근처에 뭐가 있을까")
+  last-modified (1627278965141)
+}
+train (t-p3bumsra7gp3iuzk51jf92an8) {
+  utterance ("[g:FindVet] 내 위치에서 (동물 의료센터)[v:Place:Vet] 빨리 검색해보아라")
+  last-modified (1627372673487)
+}
+train (t-p9sva0kdt7aocj2pkle65ujot) {
+  utterance ("[g:FindVet] (서울)[v:geo.SearchTerm]의 (유기묘보호센터)[v:Place:Shelter] 말해주시오")
+  last-modified (1627436650702)
+}

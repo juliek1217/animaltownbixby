@@ -1,0 +1,6 @@
+enum (Place) {
+  description (__DESCRIPTION__)
+  symbol (Vet)
+  symbol (Shelter)
+  symbol (Play)
+}

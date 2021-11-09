@@ -1,0 +1,64 @@
+train (t-0ob9t05gdopg0a4cx49cjgm26) {
+  utterance ("[g:FindVet] (상암동)[v:geo.SearchTerm] (동물병원)[v:Place:Vet] 찾아줘")
+  last-modified (1626420278251)
+}
+train (t-0h6xpgkpjmvjq4ajkimi1qx6v) {
+  utterance ("[g:FindVet] (서울)[v:geo.SearchTerm] (동물병원)[v:Place:Vet] 어디야")
+  last-modified (1626660566980)
+}
+train (t-0kd65z6y24wmfkbxca2a6vv2x) {
+  utterance ("[g:FindPlay] (경상남도)[v:geo.SearchTerm] 반려견 (놀이터)[v:Place:Play]")
+  last-modified (1626336951697)
+}
+train (t-0bv9q91g90qtz1u3oxuowkqpu) {
+  utterance ("[g:FindPlay] (전국)[v:LocationAll:locationAll] 반려견 (놀이터)[v:Place:Play] 다 찾아줘")
+  last-modified (1626750954396)
+}
+train (t-0qoouewabz5wol2obpv1rbihu) {
+  utterance ("[g:FindVet] (동물병원)[v:Place:Vet] 찾아줘")
+  last-modified (1626422423943)
+}
+train (t-0v0ykpn20sdaw4oprxtbq2md4) {
+  utterance ("[g:FindVet] (마포)[v:geo.SearchTerm]에 있는 (동물병원)[v:Place:Vet] 좀 찾아줘")
+  last-modified (1626755749996)
+}
+train (t-0pl4y6zdzvamjy4nmvvbc85n1) {
+  utterance ("[g:FindPlay] 강아지 (파크)[v:Place:Play] 말해줘")
+  last-modified (1626940330835)
+}
+train (t-0ojiqedjhp7z3y98cj2mjtl60) {
+  utterance ("[g:FindPlay] (타임스퀘어)[v:geo.SearchTerm] 근처에 개랑 (갈만한곳)[v:Place:Play] 검색해줘")
+  last-modified (1626941033942)
+}
+train (t-0p8q7yezu3q4vo3av4u4wy5xx) {
+  utterance ("[g:FindVet] (동물병원)[v:Place:Vet] 빨리 보여줘")
+  last-modified (1626943117152)
+}
+train (t-0kcr1uancmb0kh5vm4g6zyn6l) {
+  utterance ("[g:FindVet] (동물 병원)[v:Place:Vet]을 띄워줘")
+  last-modified (1626943160966)
+}
+train (t-0kusvylbnfvhz0uekz0mhec33) {
+  utterance ("[g:FindVet] (광주시)[v:geo.SearchTerm]에서 운영하는 (유기묘 센터)[v:Place:Shelter] 나와봐")
+  last-modified (1626944346612)
+}
+train (t-045ii8h3ldlbla6trq2c30oj3) {
+  utterance ("[g:FindPlay] (상암동)[v:geo.SearchTerm]에서 반려견 (놀이터)[v:Place:Play] 검색해")
+  last-modified (1627271253044)
+}
+train (t-035t7k7cbqz9z8ydt4kneyuk4) {
+  utterance ("[g:FindVet] (유기묘 보호소)[v:Place:Shelter] (전국)[v:LocationAll:locationAll]에 있는 걸로 보여주라")
+  last-modified (1627277356535)
+}
+train (t-0recgobj25hwhguvu6j5c3pv3) {
+  utterance ("[g:FindPlay] (휴게소)[v:Rest:Restarea] 반려견 (놀이터)[v:Place:Play] 얼른 불러줘")
+  last-modified (1627278527612)
+}
+train (t-0y65qbv4emfuxj171a2g8nt7n) {
+  utterance ("[g:FindPlay] 애견 (휴게소)[v:Rest:Restarea] (놀이터)[v:Place:Play] 얼른 말해줘요")
+  last-modified (1627278573880)
+}
+train (t-02e4qlnhoc2p81f8unpnyb5ty) {
+  utterance ("[g:FindVet] (동물 의료센터)[v:Place:Vet] 좀 (강원도 정선)[v:geo.SearchTerm]에서 알아줘봐")
+  last-modified (1627372756387)
+}

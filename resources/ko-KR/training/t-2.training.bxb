@@ -1,0 +1,52 @@
+train (t-2fvgn7a13b8kygjdfmgyia8n2) {
+  utterance ("[g:FindVet] (영등포역)[v:geo.SearchTerm] (동물병원)[v:Place:Vet] 좀 알려줘")
+  last-modified (1626251122711)
+}
+train (t-2zn6mfo5338yy8plfc2sjsrzv) {
+  utterance ("[g:FindPlay] (부산시)[v:geo.SearchTerm] 반려견 (놀이터)[v:Place:Play]")
+  last-modified (1626334248092)
+}
+train (t-2770dv4qa0yoq8xuy4ny099mq) {
+  utterance ("[g:FindPlay] (휴게소)[v:Rest:Restarea] 반려견 (놀이터)[v:Place:Play]")
+  last-modified (1626938098219)
+}
+train (t-25jfuas3vsqgw3vyyk7hudjy7) {
+  utterance ("[g:FindPlay] 동물이랑 (갈만한곳)[v:Place:Play]")
+  last-modified (1626940085240)
+}
+train (t-2m7xgakxsduc9p8n08hvph41z) {
+  utterance ("[g:FindPlay] 가까운 곳에 반려동물과 함께 (갈만한곳)[v:Place:Play] 띄워")
+  last-modified (1626940817952)
+}
+train (t-2gowa6b5m55obbn3srbxoi64t) {
+  utterance ("[g:FindPlay] (마포)[v:geo.SearchTerm] 반려견 (파크)[v:Place:Play] 있을까")
+  last-modified (1626941632070)
+}
+train (t-2wvt8di5b6fcr4be7z16cjz6e) {
+  utterance ("[g:FindVet] (동물병원)[v:Place:Vet]")
+  last-modified (1626942551899)
+}
+train (t-2cakqt9vhxjikcuxsbjqxgscv) {
+  utterance ("[g:FindVet] (유기견센터)[v:Place:Shelter]")
+  last-modified (1626942946966)
+}
+train (t-2bvurx1k09144zkfcwfpy9oep) {
+  utterance ("[g:FindVet] (유기묘보호센터)[v:Place:Shelter]")
+  last-modified (1626942970496)
+}
+train (t-2xqiarqpuyh5oemglsdbmt6oh) {
+  utterance ("[g:FindVet] 근처에서 (동물병원)[v:Place:Vet]을 검색해")
+  last-modified (1626943429158)
+}
+train (t-2qahux49gad6c0zhw0elln7br) {
+  utterance ("[g:FindInfo] 반려견 (응급처치)[v:Keyword:Emergency] 하는 법 말해줄래")
+  last-modified (1627276612205)
+}
+train (t-2kdbd6dwnziz5xnjoss87g689) {
+  utterance ("[g:FindPlay] 반려묘 (휴게소)[v:Rest:Restarea] (놀이터)[v:Place:Play] 근처에서 검색해")
+  last-modified (1627279015434)
+}
+train (t-2hjnkzfge6ppjoc0tg7a8oya9) {
+  utterance ("[g:FindVet] (동물의료센터)[v:Place:Vet] (서울)[v:geo.SearchTerm]에 있어")
+  last-modified (1627377607087)
+}

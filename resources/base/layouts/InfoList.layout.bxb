@@ -1,0 +1,52 @@
+layout-macro-def (InfoList) {
+  params {
+    param (item) {
+      type (InfoResult)
+      min (Required) max (One)
+    }
+  }
+  content {
+    if (item.keyword == 'Emergency') {
+    image-card {
+      aspect-ratio(21:9)
+      image-background-color(Black)
+      image-object-fit(Cover)
+      image-object-position(Top)
+      image-url("[#{value(item.image)}]")
+      text-position(Overlay)
+      title-area {
+        slot1 {
+          paragraph {
+            style(Title_M)
+            value("[#{value(item.title)}]")
+          }
+        }
+      }
+      on-click {
+        view-for (item)
+      }
+    }
+  }
+  else {
+    image-card {
+      aspect-ratio(21:9)
+      image-background-color(Black)
+      image-object-fit(Cover)
+      image-object-position(Center)
+      image-url("[#{value(item.image)}]")
+      text-position(Overlay)
+      title-area {
+        slot1 {
+          paragraph {
+            style(Title_M)
+            value("[#{value(item.title)}]")
+          }
+        }
+      }
+      on-click {
+        view-for (item)
+      }
+    }
+  }
+  }
+}

@@ -1,0 +1,16 @@
+train (t-59rzywjskd0g3vtj9z9280dd1) {
+  utterance ("[g:FindPlay] 반려묘 (놀이터)[v:Place:Play]")
+  last-modified (1626940016271)
+}
+train (t-5eic8d0jm72on3tur4lbiqi9k) {
+  utterance ("[g:FindInfo] 강아지 (인공호흡)[v:Keyword:Emergency] 어떻게 하는거야")
+  last-modified (1627276671435)
+}
+train (t-5uib3ji1gr89odeuk7kef0vlm) {
+  utterance ("[g:FindVet] (동물의료센터)[v:Place:Vet] 빨리 보여줘")
+  last-modified (1627372567728)
+}
+train (t-53tdai7lyx5ttw66rmywhgfep) {
+  utterance ("[g:FindVet] (화곡동)[v:geo.SearchTerm]에 (동물보호센터)[v:Place:Shelter] 있으면 알려주라")
+  last-modified (1627376821170)
+}

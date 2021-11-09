@@ -1,0 +1,32 @@
+train (t-aln0z6apcgsdttuhyl4b22jcm) {
+  utterance ("[g:FindVet] 근처에 (동물병원)[v:Place:Vet] 좀 찾아줘")
+  last-modified (1626757265460)
+}
+train (t-aop5n4zbdua3yvlqv5jnr169a) {
+  utterance ("[g:FindPlay] (애견카페)[v:PlaceException:Cafe] 찾아줘")
+  last-modified (1627283061101)
+}
+train (t-a91jdtt2yvjezm7sma94gl1lt) {
+  utterance ("[g:FindPlay] 애견 전용 (파크)[v:Place:Play]")
+  last-modified (1626940067739)
+}
+train (t-aiify7aouh57r6tj0r4s96xbg) {
+  utterance ("[g:FindPlay] 반려견 (휴게소)[v:Rest:Restarea] (놀이터)[v:Place:Play]")
+  last-modified (1626940183153)
+}
+train (t-aa1bhm6fkgj7h6sb82oiwebym) {
+  utterance ("[g:FindPlay] 반려묘 (휴게소)[v:Rest:Restarea] (공원)[v:Place:Play] (경상도)[v:geo.SearchTerm]내에서 검색해줄래")
+  last-modified (1626942319062)
+}
+train (t-aa3ms5vlx7kzoh4na2kt1ihy9) {
+  utterance ("[g:FindPlay] (진주시청)[v:geo.SearchTerm] 근처 (휴게소)[v:Rest:Restarea] 반려견 (놀이터)[v:Place:Play] 찾아줘")
+  last-modified (1627013014214)
+}
+train (t-awk1eryefsfu4npn7ex5ddsjh) {
+  utterance ("[g:FindVet] (구로구)[v:geo.SearchTerm] (유기견보호소)[v:Place:Shelter] 좀 알아봐")
+  last-modified (1627376723786)
+}
+train (t-a8pg42m45hj12aay22wp9uok3) {
+  utterance ("[g:FindPlay] (마포구)[v:geo.SearchTerm]에 있는 반려견 (놀이터)[v:Place:Play] 알려줘")
+  last-modified (1627458557317)
+}

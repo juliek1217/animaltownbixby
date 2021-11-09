@@ -1,0 +1,28 @@
+train (t-9q7fc8fbzgvggdhnkqoh9czj4) {
+  utterance ("[g:FindPlay] (충청남도)[v:geo.SearchTerm]에 있는 반려견 (놀이터)[v:Place:Play] 알려줘")
+  last-modified (1626760519872)
+}
+train (t-9hrz9f7w01v2r6qvxka3gyi4h) {
+  utterance ("[g:FindPlay] (휴게소)[v:Rest:Restarea] 반려동물 (놀이터)[v:Place:Play]")
+  last-modified (1626940124472)
+}
+train (t-9vrdbta2z3a8lmoe8rhxpgisy) {
+  utterance ("[g:FindPlay] 근처에서 반려묘 (휴게소)[v:Rest:Restarea] (놀이터)[v:Place:Play] 검색해")
+  last-modified (1626940783979)
+}
+train (t-9lu0is0qokibq5vun4o8rd8fu) {
+  utterance ("[g:FindPlay] (충남)[v:geo.SearchTerm]에서 반려동물이 갈수있는 (휴게소)[v:Rest:Restarea] (놀이터)[v:Place:Play] 찾아봐")
+  last-modified (1626941313535)
+}
+train (t-9h36wc7p6ppyswzz1a4s6qtk6) {
+  utterance ("[g:FindVet] (유기묘보호소)[v:Place:Shelter]")
+  last-modified (1626942989361)
+}
+train (t-9ktxp0i5261tfys6uhy36w54p) {
+  utterance ("[g:FindPlay] 반려견 (놀이터)[v:Place:Play] 보여주라")
+  last-modified (1627278421394)
+}
+train (t-904wuqtquvoxs38ax6vz6d85k) {
+  utterance ("[g:FindPlay] 애견 (휴게소)[v:Rest:Restarea] (놀이터)[v:Place:Play] 얼른 나열해줘")
+  last-modified (1627278551740)
+}

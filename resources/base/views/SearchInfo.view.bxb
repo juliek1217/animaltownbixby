@@ -1,0 +1,52 @@
+result-view{
+	match{
+		InfoResult(this)
+	}
+  message{
+		template-macro (InfoResult_Detail){
+      param (result){
+				expression (this)
+			}
+    }
+	}
+
+	render {
+    if (size(this) > 1) {
+      list-of (this) {
+          where-each (item) {
+            layout-macro (InfoList) {
+              param (item) {
+                expression (item)
+              }
+            }
+          }
+        }
+    } 
+    else-if (size(this) == 1) {
+      layout-macro (InfoDetail){
+				param (this){
+					expression (this)
+				}
+			}
+    }
+	}// render
+
+  conversation-drivers {
+    if (this[0].keyword == 'Emergency') {
+      conversation-driver {
+        template("동물회관에서 근처 동물병원 찾아줘")
+      }
+    }
+    else-if (this[0].keyword == 'Adoption') {
+      conversation-driver {
+        template("동물회관에서 근처 동물보호센터 찾아줘")
+      }
+    }
+    else-if (this[0].keyword == 'Walk') {
+      conversation-driver {
+        template("동물회관에서 근처 반려견 놀이터 찾아줘")
+      }
+    }
+  } // CD
+}
+

@@ -1,0 +1,4 @@
+structure (MyLocation) {
+  description (my current location)
+  role-of(geo.GeoPoint)
+}

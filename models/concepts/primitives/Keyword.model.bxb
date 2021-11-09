@@ -1,0 +1,6 @@
+enum (Keyword) {
+  description (__DESCRIPTION__)
+  symbol (Emergency)
+  symbol (Adoption)
+  symbol (Walk)
+}

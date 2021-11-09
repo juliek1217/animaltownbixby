@@ -1,0 +1,28 @@
+train (t-ik95b2211zne2ron06nw80gow) {
+  utterance ("[g:FindPlay] 반려견 (놀이터)[v:Place:Play]")
+  last-modified (1626937437878)
+}
+train (t-il92ywqxaqxzl5fd8yb2abm0x) {
+  utterance ("[g:FindPlay] 근처 동물이랑 (가볼만한 곳)[v:Place:Play]을 찾아")
+  last-modified (1626940682307)
+}
+train (t-ikijphs7of6tyenxly0qpfpqr) {
+  utterance ("[g:FindVet] (유기동물보호센터)[v:Place:Shelter] 띄워줘")
+  last-modified (1626943317601)
+}
+train (t-i1ckuyokvf2inbes3l78y9h3b) {
+  utterance ("[g:FindVet] (동물보호센터)[v:Place:Shelter] (대구 중구)[v:geo.SearchTerm]에 있는데 보여줄래")
+  last-modified (1626944670864)
+}
+train (t-iczqgsaebzse4qgkyrsaklmsk) {
+  utterance ("[g:FindInfo] 고양이 (응급처치)[v:Keyword:Emergency] 방법 좀 나열해봐")
+  last-modified (1627276643783)
+}
+train (t-i2n3lh7jy851yl6bmxd48t89l) {
+  utterance ("[g:FindVet] (동물메디컬센터)[v:Place:Vet] 말해줘")
+  last-modified (1627372551329)
+}
+train (t-i610p2br5buu7ud7bv9frc27t) {
+  utterance ("[g:FindPlay] (서울)[v:geo.SearchTerm]에 강아지 (놀이터)[v:Place:Play] 열어줄래")
+  last-modified (1627376947609)
+}

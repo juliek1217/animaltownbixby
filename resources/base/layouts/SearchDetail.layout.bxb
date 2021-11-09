@@ -1,0 +1,173 @@
+layout-macro-def (Search-Detail) {
+	params { //List of parameters to be defined in the layout-macro-def
+		param (searchResult) { 
+			type (SearchResult) // output structure
+			min (Optional) max (One)
+		}
+	}
+	
+	content {
+		section {
+			content {
+				map-card{
+					aspect-ratio (One_One)
+					markers{
+						marker{
+							geo (searchResult.point)
+							icon("/images/red-marker_64.png")
+							width (30)
+							height (30)
+							anchor-x (5)
+							anchor-y (15)
+							rotation (0)
+						}
+					}
+					on-click {
+						intent {
+							goal: MapPunchOut
+							value : $expr(searchResult.point)
+						}
+					}
+          
+					title-area {
+            halign (Center)
+						slot1 {
+							text {
+								value ("[#{value(searchResult.name)}]")
+								style(Title_S)
+							}
+						}
+						slot2{
+							single-line{
+								if (exists (searchResult.distanceLocation) && searchResult.distanceLocation != ''){
+								  text {
+                    color(Blue)
+                    style(Detail_M)
+                    value("[#{value(searchResult.inputLocation)}] 중심에서 [#{value(searchResult.distanceLocation)}]km 떨어져 있습니다.")
+                  }
+                }
+							}
+						}
+            slot3{
+							single-line{
+                if (exists (searchResult.distance) && searchResult.distance != ''){
+								  text {
+                    color(Green)
+                    style(Detail_M)
+                    value("현재 위치에서 [#{value(searchResult.distance)}]km 떨어져 있습니다.")
+                  }
+                }
+							}
+						}
+					}
+				}
+
+			compound-card{
+				content{
+          if(not empty(searchResult.address)){
+          single-line{
+						text{
+							value{template ("도로명주소")}
+							style(Detail_L)
+						}
+					}
+					paragraph{
+						value{template ("[#{value(searchResult.address)}]")}
+						style(Detail_M_Soft)
+					}
+          }
+          if(not empty(searchResult.addressOld)){
+					single-line{
+						text{
+							value{template ("지번주소")}
+							style(Detail_L)
+						}
+					}
+					paragraph{
+						value{template ("[#{value(searchResult.addressOld)}]")}
+						style(Detail_M_Soft)
+					}
+          }
+				}
+				on-click{
+					intent {
+							goal: MapPunchOut
+							value : $expr(searchResult.point)
+					}
+				}
+			}
+
+		if(not empty(searchResult.phone)){
+			compound-card{
+				content{
+					single-line{
+						text{
+							value{template ("전화번호")}
+							style(Detail_L)
+						}
+					}
+					paragraph{
+						value{template ("[#{value(searchResult.phone)}]")}
+						style(Detail_M_Soft)
+					}
+				}
+				on-click{
+					intent{
+						goal: CallPunchOut
+						value: $expr(searchResult.phone)
+					}
+				}
+			}
+		}
+
+    if(exists(searchResult.cost)){
+    single-line {
+      text {
+        style(Detail_M_Soft)
+        value("[#{value(searchResult.cost)}]")
+      }
+      spacer {
+        size(Large)
+      }
+      text {
+        style(Detail_M_Soft)
+        value()
+      }
+    }
+    }
+    
+    if(exists(searchResult.days)){
+    paragraph {
+      style(Detail_M_Soft)
+      value("[#{value(searchResult.days)}]")
+    }
+    }
+    if(exists(searchResult.hours)){
+    paragraph {
+      style(Detail_M_Soft)
+      value("[#{value(searchResult.hours)}]")
+    }
+    }
+
+    if(exists(searchResult.description)){
+			paragraph{
+        style(Detail_L)
+				value{template ("[#{value(searchResult.description)}]")}
+			}
+		}
+
+    if(exists(searchResult.website)){
+      attribution-link {
+        label {
+          template ("웹사이트에서 더 보기")
+        }
+        url {
+          template ("#{value(searchResult.website)}")
+        }
+      }
+    }
+
+			}
+		}
+	}
+}

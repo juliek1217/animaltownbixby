@@ -1,0 +1,32 @@
+train (t-yybm6bl7r4x5b60g5ep9h6exh) {
+  utterance ("[g:FindVet] (월드컵경기장)[v:geo.SearchTerm] 근처 (동물병원)[v:Place:Vet]")
+  last-modified (1626248573149)
+}
+train (t-yxeuwl6sd1cnyioi45kbdz9iv) {
+  utterance ("[g:FindPlay] 근처 반려견 (놀이터)[v:Place:Play] 찾아줘")
+  last-modified (1626253419185)
+}
+train (t-yw08ivsm0peka0y87dh22c592) {
+  utterance ("[g:FindVet] 가까운 (동물보호센터)[v:Place:Shelter] 좀 알려줘")
+  last-modified (1626935642940)
+}
+train (t-ye768ufimmzdm8e0raa91vohu) {
+  utterance ("[g:FindVet] (유기동물센터)[v:Place:Shelter]")
+  last-modified (1626942870327)
+}
+train (t-y678ck3gdodmo4edcftz6kl2i) {
+  utterance ("[g:FindVet] 근방 (동물병원)[v:Place:Vet] 열어")
+  last-modified (1626943443812)
+}
+train (t-yezkyquxxggl60ui9682egmjc) {
+  utterance ("[g:FindVet] (유기묘 센터)[v:Place:Shelter] 좀 (여수)[v:geo.SearchTerm]에서 검색해줄래")
+  last-modified (1627277459324)
+}
+train (t-ye9mhf5znwy7sc99wqb9zddl3) {
+  utterance ("[g:FindPlay] 반려동물과 함께 (갈만한곳)[v:Place:Play] 가까운 곳에서 띄워")
+  last-modified (1627279043724)
+}
+train (t-ym7w79evh685eq85wlgffpii3) {
+  utterance ("[g:FindPlay] (애견카페)[v:PlaceException:Cafe] 알려줘")
+  last-modified (1627283264149)
+}

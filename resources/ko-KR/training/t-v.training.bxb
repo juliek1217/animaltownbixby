@@ -1,0 +1,40 @@
+train (t-vbc3v3saqp6rttl7i4pe6e9q6) {
+  utterance ("[g:FindVet] (타임스퀘어)[v:geo.SearchTerm] (동물병원)[v:Place:Vet]")
+  last-modified (1626336570858)
+}
+train (t-vkc6024xcyrl6mzz7fcjwhcqx) {
+  utterance ("[g:FindVet] (전국)[v:LocationAll:locationAll] (동물보호센터)[v:Place:Shelter] 찾아줘")
+  last-modified (1626755222570)
+}
+train (t-vexxm5s5kyue9547x0q16rs09) {
+  utterance ("[g:FindInfo] 반려견 (응급처치)[v:Keyword:Emergency] 하는 법 알려줘")
+  last-modified (1626936668707)
+}
+train (t-vp4bs1r17ggdo1s6vv8h0x91q) {
+  utterance ("[g:FindInfo] 고양이를 (분양)[v:Keyword:Adoption]받으려면 어떻게 해")
+  last-modified (1626936862834)
+}
+train (t-vpxi73lqs58le424e3pscv6et) {
+  utterance ("[g:FindPlay] (경남)[v:geo.SearchTerm]에 좋은 반려견 전용 (휴게소)[v:Rest:Restarea] (쉼터)[v:Place:Play] 빨리 알아봐")
+  last-modified (1626941358720)
+}
+train (t-vpoaaafm1dp4tdt73yfq7wl1f) {
+  utterance ("[g:FindPlay] (전국)[v:LocationAll:locationAll]에 있는 (휴게소)[v:Rest:Restarea] 애견 (놀이터)[v:Place:Play] 띄워봐")
+  last-modified (1626941764865)
+}
+train (t-v7cysovi3iqp4mpog947fx8qj) {
+  utterance ("[g:FindVet] (유기동물보호센터)[v:Place:Shelter]")
+  last-modified (1626942659232)
+}
+train (t-v2slw4btvniegzp3eae1bcj9q) {
+  utterance ("[g:FindVet] (서울)[v:geo.SearchTerm]에서 갈만한 (동물병원)[v:Place:Vet] 찾아봐")
+  last-modified (1626943852456)
+}
+train (t-vx2d5a1ppbqe87v9vfkddzovb) {
+  utterance ("[g:FindVet] (인천시)[v:geo.SearchTerm]에 좋은 (동물병원)[v:Place:Vet] 빨리 알아봐")
+  last-modified (1626943875849)
+}
+train (t-v7rofm9ah79ryih4nj07fudws) {
+  utterance ("[g:FindPlay] 동물 (놀이터)[v:Place:Play] (전국)[v:LocationAll:locationAll]에서 다 찾아줄래")
+  last-modified (1627377089332)
+}

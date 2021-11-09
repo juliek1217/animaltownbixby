@@ -1,0 +1,18 @@
+enum (LocationException) {
+  description (locations causing errors)
+  symbol (Jeonra)
+  symbol (Chungcheong)
+  symbol (Gyeongsang)
+  
+  symbol (Gyeongsangbuk)
+  symbol (Gyeongsangnam)
+  symbol (Chungcheongnam)
+  symbol (Chungcheongbuk)
+  symbol (Jeonranam)
+  symbol (Jeonrabuk)
+  
+  symbol (Jeju)
+  symbol (Sejong)
+  symbol (Gwangju)
+  symbol (Gyeonggi)
+}

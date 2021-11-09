@@ -1,0 +1,40 @@
+train (t-bo7ldys1lmriebl34pmrubkah) {
+  utterance ("[g:FindVet] (경기도)[v:geo.SearchTerm] (동물병원)[v:Place:Vet] 다 찾아봐")
+  last-modified (1626248435298)
+}
+train (t-bb64dcbaghhibvonbt96g9qxx) {
+  utterance ("[g:FindVet] 가까운 (동물병원)[v:Place:Vet] 찾아줘")
+  last-modified (1626423570099)
+}
+train (t-bfrhi2idksix7usqe85nkvdy2) {
+  utterance ("[g:FindInfo] 강아지를 잃어버렸는데 (신고)[v:Keyword:Adoption] 어떻게해")
+  last-modified (1626936883849)
+}
+train (t-b1tcetsmhvo689m5inilv0yyb) {
+  utterance ("[g:FindInfo] 키우던 반려동물이 없어졌어 (신고)[v:Keyword:Adoption]하는 팁 좀 줘")
+  last-modified (1626936900284)
+}
+train (t-b7co52xcx74j1e9ytkhtro4x8) {
+  utterance ("[g:FindPlay] 우리집 개랑 함께 갈만한 (쉼터)[v:Place:Play]")
+  last-modified (1626940160904)
+}
+train (t-b434v85o34dxqwblb164cb8o2) {
+  utterance ("[g:FindVet] 근방 (유기견 센터)[v:Place:Shelter] 열어")
+  last-modified (1626943584264)
+}
+train (t-bgbg3ji4aochs6yri7mpayrcm) {
+  utterance ("[g:FindVet] (제주도)[v:geo.SearchTerm]에서 (유기견 보호소)[v:Place:Shelter] 검색해주라")
+  last-modified (1626944453514)
+}
+train (t-bpqsvk9g1gykr9ucwl1uypm84) {
+  utterance ("[g:FindPlay] (진주시)[v:geo.SearchTerm] 근처 (휴게소)[v:Rest:Restarea] 반려견 (놀이터)[v:Place:Play] 찾아줘")
+  last-modified (1627014588483)
+}
+train (t-b3i35w1titxv8nel9pkx14y97) {
+  utterance ("[g:FindVet] (유기견 보호소)[v:Place:Shelter] (청량리)[v:geo.SearchTerm] 근처에 있는데로 나와라")
+  last-modified (1627277562477)
+}
+train (t-bcewhde20fojt3lau8hxjkqr6) {
+  utterance ("[g:FindVet] (경기도)[v:geo.SearchTerm] 내 모든 (동물 메디컬 센터)[v:Place:Vet] 좀 찾아봐주라")
+  last-modified (1627377516004)
+}

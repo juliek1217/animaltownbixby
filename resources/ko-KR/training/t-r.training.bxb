@@ -1,0 +1,40 @@
+train (t-rvaweyelqz3sw6ggxdwn4lnae) {
+  utterance ("[g:FindVet] (신촌역)[v:geo.SearchTerm] 근처에 (동물병원)[v:Place:Vet] 좀 나열해봐")
+  last-modified (1626248443926)
+}
+train (t-rcaeyn0qfmnas5hmxcwvfdayn) {
+  utterance ("[g:FindInfo] 반려견 (응급처치)[v:Keyword:Emergency]")
+  last-modified (1626936439527)
+}
+train (t-ri1lmd8331g8prgxj0ylgxc7m) {
+  utterance ("[g:FindInfo] 반려동물과 (외출)[v:Keyword:Walk]")
+  last-modified (1626936630851)
+}
+train (t-rwgb4a6nxnsz7gs9mjwqftxti) {
+  utterance ("[g:FindInfo] 개 (응급처치)[v:Keyword:Emergency] 하는 법 띄워줘")
+  last-modified (1626936807719)
+}
+train (t-rzd6md2zt2f9e5b3m95j8tcxw) {
+  utterance ("[g:FindPlay] (휴게소)[v:Rest:Restarea] 반려동물 (놀이터)[v:Place:Play] (청주)[v:geo.SearchTerm] 근처에서 찾아줄래")
+  last-modified (1626942351739)
+}
+train (t-rnes782dndzqk4511zzciye2b) {
+  utterance ("[g:FindPlay] 고양이 데리고 (갈만한 곳)[v:Place:Play] (전라북도)[v:geo.SearchTerm]에 있는 거 찾아줄래")
+  last-modified (1626942417845)
+}
+train (t-ryrrlsq1skhy3fpej9bdkagoa) {
+  utterance ("[g:FindVet] (동물 보호센터)[v:Place:Shelter] 말해줘")
+  last-modified (1626943253655)
+}
+train (t-rx2ar0y2xf2gcfje2h2hy2njr) {
+  utterance ("[g:FindVet] (유기동물 보호센터)[v:Place:Shelter] 나와라")
+  last-modified (1626943332737)
+}
+train (t-r0st5ggz90enoz1b8gz8zq039) {
+  utterance ("[g:FindVet] (유기견센터)[v:Place:Shelter] (강원도)[v:geo.SearchTerm]에서 운영하는데 빨리 띄워줄래")
+  last-modified (1626944768913)
+}
+train (t-r191dm9jufs35q3eerq75zy9y) {
+  utterance ("[g:FindPlay] 동물이랑 근처에 (가볼만한 곳)[v:Place:Play]을 찾아")
+  last-modified (1627278942121)
+}

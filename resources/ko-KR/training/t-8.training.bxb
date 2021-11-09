@@ -1,0 +1,52 @@
+train (t-8lfdwbt9htytpuvkynsqeigi9) {
+  utterance ("[g:FindVet] 가까운 (동물보호센터)[v:Place:Shelter] 찾아줘")
+  last-modified (1626655255839)
+}
+train (t-8wqbbif347057skr6kfy6gwcv) {
+  utterance ("[g:FindVet] (전국)[v:LocationAll:locationAll] (유기견보호센터)[v:Place:Shelter] 좀 알려줘")
+  last-modified (1626756668347)
+}
+train (t-8kbyhfb9sut9yn3o3kjvhpkw7) {
+  utterance ("[g:FindVet] 근처에 있는 (동물병원)[v:Place:Vet] 좀 보여줘")
+  last-modified (1626935957829)
+}
+train (t-89u0zolks2fdddfwkttft4xn6) {
+  utterance ("[g:FindInfo] 고양이와 (여행)[v:Keyword:Walk]")
+  last-modified (1626936650240)
+}
+train (t-8xjtco2g4t3vney5pw3db7717) {
+  utterance ("[g:FindInfo] 반려견 (분양)[v:Keyword:Adoption]하는 법 말해줘")
+  last-modified (1626936727584)
+}
+train (t-8g1pfpcn6pj7hp3k2p1pqmj8o) {
+  utterance ("[g:FindPlay] 반려동물 (놀이터)[v:Place:Play]")
+  last-modified (1626939981246)
+}
+train (t-8uwsq0syy76jlgqkh3gyg3iyu) {
+  utterance ("[g:FindPlay] 현재위치에서 고양이 (놀이터)[v:Place:Play] 말해")
+  last-modified (1626940741201)
+}
+train (t-8zm01zazda2fvwdoj0pq5gla2) {
+  utterance ("[g:FindVet] (동물병원)[v:Place:Vet] 말해줘")
+  last-modified (1626943099566)
+}
+train (t-8fqrdroxveg0rxzvzco7vlgcb) {
+  utterance ("[g:FindVet] (동물보호 센터)[v:Place:Shelter] 좀 보여줘")
+  last-modified (1626943268287)
+}
+train (t-8poizqw6jpni8mhtp1cwkudn1) {
+  utterance ("[g:FindVet] 내위치에서 가까운 (동물보호소)[v:Place:Shelter] 좀 말해줘")
+  last-modified (1626943525845)
+}
+train (t-80epsh5nm1v9i9cbnznch0ei3) {
+  utterance ("[g:FindPlay] 근방에서 반려견 (놀이터)[v:Place:Play] 알려줘")
+  last-modified (1627272434393)
+}
+train (t-8tag522rbclq8kv0g8hqwk4d1) {
+  utterance ("[g:FindInfo] 반려동물한테 (인공호흡)[v:Keyword:Emergency]하는 방법 말해주라")
+  last-modified (1627276687209)
+}
+train (t-8udojk3mu8kfessejk9w06qd5) {
+  utterance ("[g:FindPlay] 근방에 (애견카페)[v:PlaceException:Cafe] 좀 알아봐")
+  last-modified (1627283434950)
+}

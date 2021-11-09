@@ -1,0 +1,32 @@
+train (t-6tlb9osmgt96174plnusq9axj) {
+  utterance ("[g:FindPlay] (충청북도)[v:geo.SearchTerm] 반려견 (놀이터)[v:Place:Play]")
+  last-modified (1626336854159)
+}
+train (t-6084uneujxy6360r5t9xrlpcg) {
+  utterance ("[g:FindVet] (전국)[v:LocationAll:locationAll]에 있는 모든 (유기견보호소)[v:Place:Shelter] 좀 찾아줘")
+  last-modified (1626756635206)
+}
+train (t-6ksv9juuhw3dffid6o7l3ciuy) {
+  utterance ("[g:FindInfo] 반려견 (대중교통)[v:Keyword:Walk] 이용하는 법 알려줘")
+  last-modified (1626937322608)
+}
+train (t-68b7n4p7onypci2t25bzeh8qn) {
+  utterance ("[g:FindPlay] 반려견과 (갈만한 곳)[v:Place:Play]")
+  last-modified (1626939894221)
+}
+train (t-6xs4sbmoma4g6wglee20cjdot) {
+  utterance ("[g:FindPlay] (국내)[v:LocationAll:locationAll]에 있는 반려견 (놀이터)[v:Place:Play] 빨리 다 찾아줘")
+  last-modified (1626940853924)
+}
+train (t-6ler3cw943za09wv4si2wwnba) {
+  utterance ("[g:FindVet] 여기 근처에 (유기견센터)[v:Place:Shelter] 뭐가 있을까")
+  last-modified (1626943490851)
+}
+train (t-6n05ueiycncpzb6lsqbo98y1p) {
+  utterance ("[g:FindPlay] (천안 동남구)[v:geo.SearchTerm]에서 반려견 (놀이터)[v:Place:Play] 검색해")
+  last-modified (1627275985018)
+}
+train (t-6jdk8jrm5z0pfesqynr2py7w0) {
+  utterance ("[g:FindVet] (수원 권선구)[v:geo.SearchTerm]의 (동물의료센터)[v:Place:Vet]가 있으면 찾아봐")
+  last-modified (1627371761208)
+}
