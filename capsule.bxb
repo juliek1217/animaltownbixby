@@ -1,5 +1,5 @@
 capsule {
-  id (lionbridge.heyPet)
+  id (playground.heyPet)
   version (1.0.3)
   format (3)
   targets {
