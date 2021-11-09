@@ -1,5 +1,5 @@
 <p align="Center">
-  <img src="https://github.com/jjeun54/TechSupport/blob/master/_JuheeKim/lionbridge.heyPet/assets/images/icons/pet-house.png">
+  <img src="https://github.com/juliek1217/animaltownbixby/assets/images/icons/pet-house.png">
   <br/>
   <h1 align="Center">Bixby 동물회관 Capsule</h1>
 </p>
