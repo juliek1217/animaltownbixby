@@ -39,3 +39,5 @@
 
 ## UI
 <img src="https://github.com/juliek1217/animaltownbixby/blob/master/assets/images/capture/screenshot-2021-11-09T06-23-19.304Z-bixby-mobile-ko-KR-device-s.png">
+<img src="https://github.com/juliek1217/animaltownbixby/blob/master/assets/images/capture/screenshot-2021-11-09T06-23-49.362Z-bixby-mobile-ko-KR-device-s.png">
+<img src="https://github.com/juliek1217/animaltownbixby/blob/master/assets/images/capture/screenshot-2021-11-09T06-23-49.362Z-bixby-mobile-ko-KR-device-s.png">
