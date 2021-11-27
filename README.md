@@ -35,3 +35,7 @@
 - 10. 사용된 지도상의 검정 사용자 위치 아이콘과 노란 타겟 위치 아이콘의 이미지는 flaticon에서 다운받은 것으로, flaticon("www.flaticon.com 에서 Freepik 이 만든 아이콘")의 License를 따르고 있습니다.
 - 11. 사용된 동물 사진 이미지는 unsplash(https://unsplash.com/license)에서 다운받은 것으로, unsplash의 License를 따르고 있습니다.
 ---
+
+
+## UI
+<img src="https://github.com/juliek1217/animaltownbixby/blob/master/assets/images/capture/screenshot-2021-11-09T06-23-19.304Z-bixby-mobile-ko-KR-device-s.png">
