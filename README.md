@@ -40,4 +40,17 @@
 ## UI
 <img src="https://github.com/juliek1217/animaltownbixby/blob/master/assets/images/capture/screenshot-2021-11-09T06-23-19.304Z-bixby-mobile-ko-KR-device-s.png">
 <img src="https://github.com/juliek1217/animaltownbixby/blob/master/assets/images/capture/screenshot-2021-11-09T06-23-49.362Z-bixby-mobile-ko-KR-device-s.png">
-<img src="https://github.com/juliek1217/animaltownbixby/blob/master/assets/images/capture/screenshot-2021-11-09T06-23-49.362Z-bixby-mobile-ko-KR-device-s.png">
+<img src="https://github.com/juliek1217/animaltownbixby/blob/master/assets/images/capture/screenshot-2021-11-09T06-23-59.930Z-bixby-mobile-ko-KR-device-s.png">
+<img src="https://github.com/juliek1217/animaltownbixby/blob/master/assets/images/capture/screenshot-2021-11-09T06-24-13.066Z-bixby-mobile-ko-KR-device-s.png">
+<img src="https://github.com/juliek1217/animaltownbixby/blob/master/assets/images/capture/screenshot-2021-11-09T06-24-58.194Z-bixby-mobile-ko-KR-device-s.png">
+<img src="https://github.com/juliek1217/animaltownbixby/blob/master/assets/images/capture/screenshot-2021-11-09T06-25-15.410Z-bixby-mobile-ko-KR-device-s.png">
+<img src="https://github.com/juliek1217/animaltownbixby/blob/master/assets/images/capture/screenshot-2021-11-09T06-25-30.346Z-bixby-mobile-ko-KR-device-s.png">
+<img src="https://github.com/juliek1217/animaltownbixby/blob/master/assets/images/capture/screenshot-2021-11-09T06-25-59.369Z-bixby-mobile-ko-KR-device-s.png">
+<img src="https://github.com/juliek1217/animaltownbixby/blob/master/assets/images/capture/screenshot-2021-11-09T06-26-28.321Z-bixby-mobile-ko-KR-device-s.png">
+<img src="https://github.com/juliek1217/animaltownbixby/blob/master/assets/images/capture/screenshot-2021-11-09T06-28-07.618Z-bixby-mobile-ko-KR-device-s.png">
+<img src="https://github.com/juliek1217/animaltownbixby/blob/master/assets/images/capture/screenshot-2021-11-09T06-28-14.049Z-bixby-mobile-ko-KR-device-s.png">
+<img src="https://github.com/juliek1217/animaltownbixby/blob/master/assets/images/capture/screenshot-2021-11-09T06-28-36.626Z-bixby-mobile-ko-KR-device-s.png">
+<img src="https://github.com/juliek1217/animaltownbixby/blob/master/assets/images/capture/screenshot-2021-11-09T06-29-21.529Z-bixby-mobile-ko-KR-device-s.png">
+<img src="https://github.com/juliek1217/animaltownbixby/blob/master/assets/images/capture/screenshot-2021-11-09T06-29-25.857Z-bixby-mobile-ko-KR-device-s.png">
+
+
