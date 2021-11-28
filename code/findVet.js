@@ -31,7 +31,7 @@ module.exports.function = function findVet(place, rest, placeException, location
     apiEndPoint = 'http://api.vworld.kr/req/search?';
     apiQuery = 'service=search&request=search&version=2.0&query=동물병원&type=place&format=json&errorformat=json&size=1000&page=';
     apiPage = '1';
-    apiK = '&key=4D2E35C8-796B-3DBA-BA2F-86F820A0CB43';
+    apiK = '&key='; // removed
 
     apiUrl = apiEndPoint + apiQuery + apiPage + apiK;
     // API error handling
