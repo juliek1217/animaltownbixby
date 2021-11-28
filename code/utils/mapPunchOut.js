@@ -2,7 +2,7 @@ var console = require('console')
 var http = require('http')
 var fail = require('fail')
 
-var Key_ChangeAddress = "4D2E35C8-796B-3DBA-BA2F-86F820A0CB43"
+var Key_ChangeAddress = "" // removed
 
 module.exports.function = function mapPunchOut (point) {
   //ex) geo:37.554998,126.970577?q=서울역
